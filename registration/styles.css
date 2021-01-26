@@ -1,0 +1,77 @@
+
+* {box-sizing: border-box}
+body{
+    font-size: 70%;
+    height: 80%;
+
+}
+h3{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Dancing Script', cursive;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.bg-img {
+    background-image: url("jungle.jpg");
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .header {
+    padding: 10px;
+  }
+form{
+    width: 35%;
+    margin: 0px auto;
+    padding: 15px;
+    border: 5px solid #c2c177;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Dancing Script', cursive;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1dbdb;
+    font-size: larger;
+    font-family: 'Merriweather', serif;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(255, 255, 232);
+    outline: none;
+  }  
+  p{
+      text-align: center;
+  }
+  .button {
+    background-color: #8d4a4a;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color:maroon;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
